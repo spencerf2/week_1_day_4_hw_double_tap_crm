@@ -1,0 +1,28 @@
+.container {
+  border: 5px solid yellow;
+}
+
+.row {
+  border: 5px solid red;
+  background-color: lightpink;
+}
+
+.col {
+  border: 5px solid purple;
+}
+
+.picture-wrapper {
+  position: relative;
+  text-align: center;
+}
+
+.row .row-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.row .row-2 {
+  border: 1px solid white;
+}
