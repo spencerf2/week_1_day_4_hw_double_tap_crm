@@ -1,0 +1,90 @@
+.navbar{
+    width: 100%;
+    background-color: white;
+    display: inline-block;
+}
+.navPic{
+    max-width: 15%;
+    margin-left: 5%;
+}
+.navbar-nav{
+    margin-left: 13%;
+}
+ul .nav-item{
+    padding-left: 2Vh;
+
+}
+.signbtn{
+    margin-left: 20%;
+}
+.trybtn{
+    margin-left: 3%;
+}
+.sec1img{
+    max-height: 93vh;
+}
+.focustext{
+    padding-left: 10%;
+    padding-top: 3%;
+    line-height: 1.8;
+
+}
+.headbtn{
+    margin:3Vh 0;
+}
+hr{
+    border: 2px solid lightgrey;
+    border-radius: 50%;
+    max-width: 70%;
+}
+.paragraph{
+    padding: 5Vh 45Vh;
+    
+}
+.paragraph p{
+    margin-top: 4Vh ;
+}
+.card{
+    max-width: 70%;
+    margin-left: 15%;
+    border-radius: 10px;
+    min-height: 400px;
+}
+#card{
+    border:0;
+}
+.card1{
+    background-color: #0750F8;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    min-height: 400px;
+    padding-top: 6vh;
+    
+}
+.img-fluid{
+    max-width: 70%;
+}
+.collectpic{
+    padding-top: 4vh;
+    padding-left: 4vh;
+}
+section ul li::after{
+    color: #0850F8;
+    content:" \00b7";
+    letter-spacing: 1vh;
+}
+footer ul li::after{
+    content:" \00b7";
+    letter-spacing: 1vh;
+}
+ ul li:last-child:after{
+    content:"";
+    letter-spacing: 1vh;
+}
+footer{
+    padding: 5Vh 0;
+    margin-top: 6vh;
+    background-color:#0750F8 ;
+    max-width: 100%;
+    line-height: 2.5;
+}
