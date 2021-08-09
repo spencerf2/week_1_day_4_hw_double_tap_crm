@@ -37,22 +37,26 @@ hr{
     border-radius: 50%;
     max-width: 70%;
 }
-.paragraph{
+
+/* .paragraph{
     padding: 5Vh 45Vh;
     
 }
 .paragraph p{
     margin-top: 4Vh ;
-}
+} */
 .card{
     max-width: 70%;
     margin-left: 15%;
     border-radius: 10px;
     min-height: 400px;
 }
-#card{
-    border:0;
+
+.img-fluid{
+    max-width: 90%;
+    padding-top: 20px;
 }
+
 .card1{
     background-color: #0750F8;
     border-bottom-right-radius: 10px;
@@ -61,9 +65,18 @@ hr{
     padding-top: 3vh;
     
 }
-.img-fluid{
-    max-width: 90%;
-    padding-top: 20px;
+
+#bar-chart {
+    width: 5vw;
+    height: 10vh;
+}
+
+#learn-more-button {
+    border: 3px solid white;
+}
+
+#smaller-learn-more-buttons {
+    border: 2px solid black;
 }
 
 section ul li::after{

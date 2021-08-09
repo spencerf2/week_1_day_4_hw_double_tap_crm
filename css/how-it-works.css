@@ -62,7 +62,8 @@ hr{
     
 }
 .img-fluid{
-    max-width: 70%;
+    max-width: 90%;
+    padding-top: 20px;
 }
 .collectpic{
     padding-top: 4vh;

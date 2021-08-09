@@ -13,23 +13,65 @@
 <body>
 
   <div class="fluid-container">
-    <div class="row">
-      <div class="col-6 left text-center">
-        <div class="row">
-          <div class="col box">
-            <p>Don't Have an Account Yet?</p>
-            <p>What are you waiting for? Let's Fix that now!</p>
-            <button class="btn btn-outline-light  font-weight-bold rounded-pill">Sign Up</button>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12 picture">
-            <img src="images/CRM-SignIn/Group_15@2x.png" alt="">
-          </div>
+    <div class="row h-100">
+      <!-- Column for picture and Sign Up page link -->
+      <div class="col-6 left bg-primary text-white h-100">
+        <h3 class="mt-5 mr-5 mb-3 ml-1">Don't Have an Account Yet?</h3>
+        <h3 class="mt-0 mr-5 mb-3 ml-1">What are you waiting for? Let's Fix that now!</h3>
+        <button class="btn btn-outline-light rounded-pill" id="sign-up-button"><p class="mb-0 px-4 font-weight-bold">Sign Up</p></button>
+        <div class="col-12 picture">
+          <img src="images/CRM-SignIn/Group_15@2x.png" alt="sign-up">
         </div>
       </div>
-      <div class="col-6">
-        <!-- Form side of page -->
+      <!-- Column for form side of page -->
+      <div class="col-6 align-items-center">
+        <h1 class="sign-in"><strong>Sign In</strong></h1>
+        <fieldset> 
+            <div id="input_container">
+                <input type="text" name="email" class="rounded-pill" id="input" value/>
+                <i class="far fa-user" id="input_img"></i>
+            </div>
+            <div id="input_container">
+                <input type="text" name="mobile" class="rounded-pill" id="input" value/>
+                <i class="far fa-envelope" id="input_img"></i>   
+             </div>
+            <div id="input_container">
+                <input type="text" name="telephone" class="rounded-pill" id="input" value/>
+                <i class="fas fa-lock" id="input_img"></i>
+            </div></fieldset>
+            <button type="button" class="btn btn-primary rounded-pill font-weight-bold">Sign Up </button>
+        </fieldset>
+        <p><strong>Or sign up with social platforms</strong></p>
+        
+        <div class="row align-items-center">
+            <div class="col">
+            </div>
+            <div class="col">
+                <div id="circle">
+                    <img class="icon" src="images/CRM-SignUp/Path-151.png" alt="Facebook">
+                </div>
+                
+            </div>
+            <div class="col">
+                <div id="circle">
+                    <img class="icon" src="images/CRM-SignUp/Path-152.png" alt="Twitter">
+                </div>
+                
+            </div>
+            <div class="col">
+                <div id="circle">
+                    <img class="icon google" src="images/CRM-SignUp/google.png" width="70px" alt="Google">
+                </div>
+                
+            </div>
+            <div class="col">
+                <div id="circle">
+                    <img class="icon" src="images/CRM-SignUp/linkedin.png" width=60% alt="LinkedIn">
+                </div>
+            </div>
+            <div class="col">
+            </div>
+        </div>
       </div>
     </div>
   </div>
